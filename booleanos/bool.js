@@ -8,4 +8,3 @@ console.log(typeof verdadero, typeof falso);
 console.log(Boolean(0));
 console.log(Boolean(-7));
 console.log(Boolean(" "));
-s;
