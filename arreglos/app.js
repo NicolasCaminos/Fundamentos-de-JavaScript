@@ -34,7 +34,9 @@ console.log(colores)//[Rojo, Verde, Azul]
 
 colores.forEach(function (el, index) {
     console.log(`<li id=${index}> ${el}<li>`)
-    /**<li id=0> Rojo<li>
+    /*
+    <li id=0> Rojo<li>
     <li id=1> Verde<li>
-    <li id=2> Azul<li> */
+    <li id=2> Azul<li> 
+    */
 })
