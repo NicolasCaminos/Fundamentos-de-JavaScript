@@ -19,7 +19,7 @@ console.log(d)
 const e = new Array();//[] . Estos metodos de array ya no se utilizan.
 console.log(e)
 
-const f = new Array(1, 2, 3, 4, false);//[1, 2, 3, 4, false]. Estos metodos de array ya no se utilizan.
+const f = new Array(1, 2, 3, 4, false, 1);//[1, 2, 3, 4, false]. Estos metodos de array ya no se utilizan.
 console.log(f)
 
 const colores = ['Rojo', 'Verde', 'Azul'] //[Rojo,Verde,Azul]
@@ -40,3 +40,8 @@ colores.forEach(function (el, index) {
     <li id=2> Azul<li> 
     */
 })
+
+
+const nombre = Array.of('Nicolas', 'Martin', 'Martina', 'Roxana', 'Roxana');
+let index = nombre.indexOf('Roxana');
+console.log(index) //3
