@@ -42,3 +42,6 @@ console.log(nico.contacto.celular) //  celular: '54912345678'
 nico.saludar()//Hola :)
 nico.decirMinombre() //Hola me llamo Nicolas
 //Hola me llamo Nicolas Caminos y tengo 35
+console.log(Object.keys(nico)); //
+console.log(Object.values(nico)); //
+console.log(nico.hasOwnProperty('nombre'))//true
